@@ -1,0 +1,30 @@
+Modern prowess decks share some key elements, but they're much different in practice from the options for a pioneer prowess deck.
+
+I need to add logic for:
+* ~Mishra's Bauble
+* ~Manamorphose
+* ~Lava Dart - still could add heuristics from prowess article
+* Dragon's Rage Channeler
+
+----
+
+12/8/2022
+
+* added lava dart definition
+* added lava dart enumerate_actions() code
+* added lava dart do_action() code
+* corrected flashback and self.instasorcery_count interaction
+* added mishra's bauble upkeep and do_action() code
+* added mishra's bauble definition
+* added manamorphose definition
+* added manamorphose do_action() code
+
+Need to add DRC and correct prowess code
+
+----
+
+12/10/2022
+
+* Implemented DRC's surveil ability
+* added DRC definition
+* added greedy random optimization
